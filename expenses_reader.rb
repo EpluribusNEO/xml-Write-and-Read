@@ -11,7 +11,7 @@ require "rexml/document" #подклбчить XML-парсер
 require "date" #для операций с данными
 
 current_path = File.dirname(__FILE__ )
-file_name = current_path + "/my_expenses.xml"
+file_name = current_path + "/myfiles/my_expenses.xml"
 
 unless File.exist?(file_name)
   abort "файл не найден!"

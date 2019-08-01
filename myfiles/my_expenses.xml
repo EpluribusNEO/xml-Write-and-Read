@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!-- expenses_tracker --> 
+<expenses>
+  <expense date='3.06.2019' category='Видеигры' amount='500'>
+     Half-Life 3 
+  </expense>
+  <expense date='3.06.2019' category='Еда' amount='350'>
+     Торт 
+  </expense>
+  <expense date='3.06.2019' category='Еда' amount='400'>
+     Плодоовощи 
+  </expense>
+  <expense date='5.06.2019' category='Образование' amount='550'>
+     Учебник по мат.Анализу 
+  </expense>
+  <expense date='7.06.2019' category='Электроника' amount='150'>
+     Лапочка 
+  </expense>
+  <expense date='9.06.2019' category='Кошки' amount='900'>
+     Еда Кошкам 
+  </expense>
+  <expense date='10.06.2019' category='Образование' amount='300'>
+     Книга по Ruby on Rails 
+  </expense>
+  <expense date='15.06.2019' category='Образование' amount='500'>
+     Книга Java 
+  </expense>
+  <expense date='15.06.2019' category='Еда' amount='90'>
+     Кока-кола 
+  </expense>
+  <expense date='15.06.2019' category='Мода и стиль' amount='500'>
+     Стрижка 
+  </expense>
+  <expense date='29.06.2019' category='Мода и стиль' amount='3500'>
+     Одежда 
+  </expense>
+  <expense date='29.06.2019' category='Мода и стиль' amount='300'>
+     Тёмные очки 
+  </expense>
+  <expense date='1.07.2019' category='Образование' amount='900'>
+     Книга по Ruby on Rails 
+  </expense>
+  <expense date='15.07.2019' category='Электроника' amount='1500'>
+     USB-флешка 
+  </expense>
+  <expense date='31.07.2019' category='Кошки' amount='320'>
+     Еда Кошкам 
+  </expense>
+  <expense date='31.07.2019' category='Еда' amount='900'>
+     Овощи + фрукты 
+  </expense>
+  <expense date='31.07.2019' category='Кошки' amount='600'>
+     Мясо 
+  </expense>
+  <expense date='2019-08-01' category='Образование' amount='330'>
+     Книга по Ruby 
+  </expense>
+  <expense date='2019-08-01' category='Развличение' amount='600'>
+     Билеты в кино 
+  </expense>
+  <expense date='2019-08-01' category='Искуство' amount='200'>
+    Поход в музей
+  </expense>
+</expenses>
