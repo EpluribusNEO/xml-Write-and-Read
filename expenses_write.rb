@@ -1,4 +1,4 @@
-if(Gem.win_platform?)
+if (Gem.win_platform?)
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
   Encoding.default_internal = __ENCODING__
 
@@ -30,8 +30,8 @@ end
 puts "Категория"
 expence_category = STDIN.gets.chomp
 
-current_path = File.dirname(__FILE__ )
-file_name = current_path  + "/myfiles/my_expenses.xml"
+current_path = File.dirname(__FILE__)
+file_name = current_path + "/myfiles/my_expenses.xml"
 
 unless File.exist?(file_name)
   abort "файл не найден!"
@@ -39,14 +39,19 @@ end
 
 
 file = File.new(file_name, "r:UTF-8")
-doc = REXML::Document.new(file)
-file.close
+begin
+  doc = REXML::Document.new(file)
+rescue REXML::ParseException => excep
+  puts "Что-то не так с XML файлом:"
+  abort excep.message
+end
 
+file.close
 
 
 _expences = doc.elements.find('expenses').first
 
-expence = _expences.add_element('expense',{
+expence = _expences.add_element('expense', {
     'date' => expence_date.to_s,
     'category' => expence_category,
     'amount' => expence_amount
