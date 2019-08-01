@@ -33,7 +33,7 @@
   <expense date='2019-08-01' category='Развлечение' amount='600'>
      Билеты в кино 
   </expense>
-  <expense date='2019-08-01' category='Искуство' amount='200'>
+  <expense date='2019-08-01' category='Искусство' amount='200'>
     Поход в музей
   </expense>
 </expenses>
